@@ -2,6 +2,8 @@
 const collectEmployees = function() {
   const employees = [];
   let continueAdding = true;
+
+  while (continueAdding) {
     const firstName = prompt("Enter the employee's first name:");
     const lastName = prompt("Enter the employee's last name:");
     let salary = prompt("Enter the employee's salary:");
