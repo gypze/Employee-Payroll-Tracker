@@ -40,12 +40,6 @@ const getRandomEmployee = function(employeesArray) {
   console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName}, our random drawing winner!`);
 };
 
-/*
-  ====================
-  STARTER CODE
-  Do not modify any of the code below this line:
-*/
-
 // Display employee data in an HTML table
 const displayEmployees = function(employeesArray) {
   // Get the employee table
